@@ -20,11 +20,11 @@ export default function Calculator() {
   };
 
   const buttons = [
-    ['C', 'DEL', '/', '*'],
+    ['0', '.', '/', '*'],
     ['7','8','9','-'],
     ['4','5','6','+'],
     ['1','2','3','='],
-    ['0','.']
+    ['c','DEL']
   ];
 
   const handleClick = (val) => {
